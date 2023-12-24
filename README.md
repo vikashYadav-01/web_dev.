@@ -1,3 +1,1 @@
-This is web_devlopment Repository 
-
-and i am learning it from codeHelp by loveBabbar bhaiya.
+For parallex_effect is created with the help of "prepective()"
