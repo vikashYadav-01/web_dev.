@@ -17,6 +17,7 @@
   height: 100%;
   width: 1200px;
   margin: 0 auto;
+  
 }
 
 .container h1 {
@@ -45,6 +46,7 @@
   transform: scale(1.03); /* upward the image (look big)*/
   transition: 0.8s;
   filter: drop-shadow(0 0 10px #f3f3f3);
+  
 }
 .card img {
   height: 100%;
@@ -72,5 +74,5 @@
     font-weight: 700;
     letter-spacing: 6px;
     text-shadow: 3px 3px 10px black;
-    
+    backgoundt
 }

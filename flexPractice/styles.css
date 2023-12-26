@@ -14,11 +14,11 @@
 
     /* flex-flow: column nowrap; */
 
-    justify-content: flex-end;
+    /* justify-content: center; */
 
-    align-items:flex-start;
+    /* align-items:center;  */
 
-    align-content:flex-start;
+    align-content: center;     /*  this is arrangethe content according to flex start and flex end and cemter means in vertically direction   */
 
     /* gap:10px; */
 }
@@ -41,13 +41,13 @@
 
 #box3{
     order:8;
-    /* align-self:flex-end; */
-    /* flex-shrink:2; */
-    /* flex-grow:1;
-} */
-}
+    align-self:flex-end;
+    flex-shrink:2;
+    flex-grow:5;
+} 
 
 #box2{
     order:8;
-    /* align-self:stretch;
+    /* align-self:stretch; */
+    
 } 
