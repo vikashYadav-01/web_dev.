@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+:root{
+    --backgroundColor:white;
+    --boxColor: blue;
+}
+
+.container{
+    height: 60px;
+    width: 500px;
+    margin: 300px auto;
+    background-color: var(--backgroundColor);
+    border: 2px solid rgb(252, 251, 251);
+    border-radius: 12px;
+    
+}
+
+.box{
+    width: 0;
+    height: 56px;
+    background-color: var(--boxColor);
+    border-radius: 10px;
+
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards; 
+    
+    /* forward - ye last me jake ruk jayega 
+    backward - complete krne ke bad fir se intial position me jake ruk jayega*/
+
+}
+
+
+
+@keyframes animation {
+    from{
+        width: 0;
+        background-color: blue;
+    }
+    to{
+        width: 497px;
+        background-color: rgb(8, 151, 217);
+    }
+}
