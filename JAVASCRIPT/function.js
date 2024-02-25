@@ -148,14 +148,35 @@ for (const value of arr) {
      
 }
 
-console.log(total)
+// console.log(total)
 
 
 // Reduced methode
 
 let sumtotal = arr.reduce((accumulator , currentValue)=> accumulator + currentValue ,0)
-console.log(sumtotal)
+// console.log(sumtotal)
 
 //  0 is optional if we dont want to put 0 then code will not give any error.
 //0 -> accumuletor's default value in first , if not given then it will take first index element in accumuletor.
- 
+
+// const x = 5
+// const y ="5"
+// // console.log(x===y)
+
+// const ab = "123"
+// // console.log(Number(ab))
+
+// let v =4
+// function foo(){
+//      let j = 10
+//      console.log(j)
+// }
+
+// foo()
+
+// console.log(v)
+
+const x = [1,2,3,4]
+const y = x
+x.push(7)
+console.log(y.length)
